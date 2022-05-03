@@ -1,0 +1,183 @@
+/*
+Theme Name: Scapeshot Wedding
+Description: Used to style Gutenberg Blocks in the editor.
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 General Typography
+2.0 General Block Styles
+3.0 Blocks - Common Blocks
+4.0 Blocks - Formatting
+5.0 Blocks - Layout Elements
+6.0 Blocks - Widgets
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 General Typography
+--------------------------------------------------------------*/
+
+.block-editor .editor-styles-wrapper a:hover,
+.block-editor .editor-styles-wrapper a:focus {
+	color: #fba4a8;
+}
+
+.editor-styles-wrapper ul li::marker {
+	color: #fba4a8;
+}
+
+.wp-block-file .wp-block-file__button {
+	background-color: #fba4a8;
+}
+
+.is-style-outline > .wp-block-button__link:not(.has-text-color),
+.wp-block-button__link.is-style-outline:not(.has-text-color) {
+	color: #fba4a8;
+}
+
+.wp-block-file .wp-block-file__button:hover,
+.wp-block-file .wp-block-file__button:focus,
+.wp-block-button .wp-block-button__link:hover,
+.wp-block-button .wp-block-button__link:focus {
+	background-color: #333;
+	color: #fff;
+}
+
+
+/* Playlist */
+
+.wp-playlist .mejs-controls .mejs-time-rail .mejs-time-current,
+.wp-playlist .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+    background-color: #fba4a8;
+}
+
+.mejs-playpause-button {
+    background-image: linear-gradient(to right, #fba4a8, #fba4a8);
+}
+
+.mejs-playpause-button:hover,
+.mejs-playpause-button:focus {
+    background-image: linear-gradient(to right, #f97379, #f97379);
+}
+
+
+/* COLOR */
+.wp-block-file .wp-block-file__button,
+.wp-block-search .wp-block-search__button,
+.wp-block-button .wp-block-button__link {
+	background-color: #fba4a8;
+}
+
+.is-style-outline .wp-block-button__link,
+.is-style-outline .more-link,
+.is-style-outline .button {
+	border: 1px solid #fba4a8;
+}
+
+.wp-block-quote:before {
+	color: #fba4a8;
+}
+
+figure.wp-block-pullquote,
+.wp-block[data-align="right"] figure.wp-block-pullquote,
+.wp-block[data-align="left"] figure.wp-block-pullquote,
+.wp-block-pullquote.alignleft,
+.wp-block-pullquote.alignright {
+    border-color: #fba4a8;
+}
+
+figure.wp-block-table thead,
+figure.wp-block-table tfoot {
+    border-color: #dfdfdf;
+}
+
+.wp-block-pullquote.is-style-solid-color,
+figure.wp-block-table.is-style-stripes tbody tr:nth-child(2n+1) {
+    background-color: #f2f2f2;
+}
+
+/* White Color ---------------------
+------------------------------------ */
+
+.wp-block-pullquote .has-white-color .wp-block-pullquote__citation {
+	color: #ffffff;
+}
+
+.is-style-outline > .wp-block-button__link.has-white-color,
+.wp-block-button__link.is-style-outline.has-white-color {
+	border-color: #ffffff;
+}
+
+/* Black Color ---------------------
+------------------------------------ */
+
+.wp-block-pullquote .has-black-color .wp-block-pullquote__citation {
+	color: #000000;
+}
+
+.is-style-outline > .wp-block-button__link.has-black-color,
+.wp-block-button__link.is-style-outline.has-black-color {
+	border-color: #000000;
+}
+
+/* Light Black Color ---------------------
+------------------------------------ */
+
+.wp-block-pullquote .has-light-black-color .wp-block-pullquote__citation {
+	color: #121212;
+}
+
+.is-style-outline > .wp-block-button__link.has-light-black-color,
+.wp-block-button__link.is-style-outline.has-light-black-color {
+	border-color: #121212;
+}
+
+/* Nero Color ---------------------
+------------------------------------ */
+
+.wp-block-pullquote .has-nero-color .wp-block-pullquote__citation {
+	color: #282828;
+}
+
+.is-style-outline > .wp-block-button__link.has-nero-color,
+.wp-block-button__link.is-style-outline.has-nero-color {
+	border-color: #282828;
+}
+
+/* Gray Color ---------------------
+------------------------------------ */
+
+.wp-block-pullquote .has-gray-color .wp-block-pullquote__citation {
+	color: #999999;
+}
+
+.is-style-outline > .wp-block-button__link.has-gray-color,
+.wp-block-button__link.is-style-outline.has-gray-color {
+	border-color: #999999;
+}
+
+/* Dark Orange Color ---------------------
+------------------------------------ */
+
+.wp-block-pullquote .has-dark-orange-color .wp-block-pullquote__citation {
+	color: #ff8605;
+}
+
+.is-style-outline > .wp-block-button__link.has-dark-orange-color,
+.wp-block-button__link.is-style-outline.has-dark-orange-color {
+	border-color: #ff8605;
+}
+
+/* Safety Orange Color ---------------------
+------------------------------------ */
+
+.wp-block-pullquote .has-safety-orange-color .wp-block-pullquote__citation {
+	color: #ff5b02;
+}
+
+.is-style-outline > .wp-block-button__link.has-safety-orange-color,
+.wp-block-button__link.is-style-outline.has-safety-orange-color {
+	border-color: #ff5b02;
+}
+
